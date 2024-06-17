@@ -12,7 +12,7 @@
                 throw new ArgumentOutOfRangeException(null, "Любая сторона треугольника должна быть положительной");
 
             // Не совсем понял какого рода проверка нужна
-            // Но на всякий добавлю тут проверку, если она тут нужна - раскомментить код
+            // Но на всякий добавлю тут проверку в виде комментария
             //var errors = new double[] { SideA + SideB - SideC, SideA + SideC - SideB, SideB + SideC - SideA };
             //if (errors.Where(x => Math.Abs(x) > 1e-10).Any()) 
             //    throw new ArgumentException(null, "Сумма длин любых двух сторон должна быть больше длины третьей стороны");
