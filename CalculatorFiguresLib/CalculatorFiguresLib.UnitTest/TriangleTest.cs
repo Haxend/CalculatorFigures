@@ -1,5 +1,4 @@
 ﻿using CalculatorFiguresLib.Figures;
-using System;
 
 namespace CalculatorFiguresLib.UnitTest
 {
@@ -42,7 +41,7 @@ namespace CalculatorFiguresLib.UnitTest
         {
             var triangle = new Triangle(2, 3, 4);
 
-            Assert.IsFalse(triangle.IsRightTriangle());
+            Assert.IsFalse(triangle.IsRight);
         }
 
         [Test]
@@ -50,7 +49,7 @@ namespace CalculatorFiguresLib.UnitTest
         {
             var triangle = new Triangle(3, 4, 5);
 
-            Assert.IsTrue(triangle.IsRightTriangle());
+            Assert.IsTrue(triangle.IsRight);
         }
 
         [Test]
